@@ -1,0 +1,272 @@
+.principal{
+    background-image: url("GettyImages-5426989211-a54dbc7f8cb7450e9878c0d3db6f282d.jpg");
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-size: cover;
+}
+.principal2{
+    background-image: url("fondhongkong.jpg");
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-size: cover;
+}
+li {
+    transition: transform 0.3s ease;
+}
+.parent-li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .conteneur-elements {
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(245, 245, 220, 0.81);
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  
+  .conteneur-elements li {
+    margin-top: 1px;
+    font-size: 12px;
+  }
+  .conteneur-elements li:hover{
+    background-color: rgba(95, 158, 160, 0.765);
+    border-radius: 3px;
+  }
+  .parent-li:hover .conteneur-elements {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  
+  
+li:hover {
+    transform: scale(1.2); /* Agrandit l'élément de 20% */
+}
+/*.conteneur-elements:hover {
+    transform: translateY(-23px); /* Déplace le menu de 10 pixels vers le haut 
+}*/
+div ul[class="parent"]{
+    background-color: rgba(255, 255, 255, 0.734);
+    color: black;
+    margin-left: 18%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 60%;
+    height: 10vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    border-radius: 10px;
+
+}
+li{
+    display: inline;
+    margin-right: 50px;
+
+}
+#text-container{
+    font-size: 50px;
+    margin-top: 20vh;
+    color: antiquewhite;
+    margin-left: 20%;
+    background-color: rgba(0, 0, 0, 0.357);
+    width: 70%;
+    height: 13vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+    animation: bougerDiv 1s infinite;
+}
+#text-container2{
+    margin-left: 15%;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10vh;
+}
+#text-container3{
+    color: white;
+    font-size: 20px;
+    margin-left: 6%;
+    margin-bottom: 10vh;
+}
+.textecourt{
+    background-color: rgba(0, 0, 0, 0.128);
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 10px;
+    animation: bougerDiv 1s infinite;
+}
+@keyframes bougerDiv {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.allonsy{
+    background-color: brown;
+    color: white;
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    animation: bougerDiv 1s infinite; /* La durée de l'animation est de 5 secondes et elle se répète indéfiniment */
+    font-size: 25px;
+    margin-top: 20vh;
+    border-radius: 10px;
+}
+.egypteenbref{
+    background-color: skyblue;
+    color: bisque;
+    font-size: 30px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content{
+    background-image: url("imagefont.jpg");
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-size: cover;
+}
+.ecrit1{
+    width: 65%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.362);
+    color: white;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+    border-radius: 20px;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.ecrit1:hover{
+    transform: scale(1.1); /* Agrandit l'élément de 20% */
+}
+.ecrit2{
+    clear: left;
+    float: left;
+    display: flex;
+    width: 65% ;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.287);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+.ecrit2:hover{
+    transform: scale(1.1); /* Agrandit l'élément de 20% */
+}
+img{
+    margin-left: 80%;
+    border: 0px solid;
+    border-radius: 100px;
+    animation: bougerDiv 1s infinite;
+    position: relative;
+}
+.precedant{
+    display: flex;
+    float: left;
+    margin-top: 9vh;
+    margin-bottom: 3vh;
+    margin-left: 4vh;
+    animation: bougerDiv 1s infinite;
+}
+.suivant{
+  text-align: end;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  margin-left: 4vh;
+  margin-right: 3vh;
+  animation: bougerDiv 1s infinite;
+}
+.final{
+    border-radius: 25px;
+}
+.retour{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4vh;
+    clear: both;
+}
+.container {
+    position: relative;
+    display: flex;
+    margin-left: 68%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.container:hover .video {
+    opacity: 1;
+}
+.hongkong:visited{
+    background-color: rgba(95, 158, 160, 0.9);
+}
+.Egypte:visited{
+    background-color: rgba(95, 158, 160, 0.9);
+}
+.reretour{
+    color: white;
+    border: 2px solid white ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.reretour:hover{
+    color: white;
+    border: 2px solid white ;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.dernier li {
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    display: inline;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+}
+.dernier{
+    text-align: center;
+    margin-top: 10vh;
+
+}
+.dernier li:hover{
+    background-color: black;
+}

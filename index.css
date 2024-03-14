@@ -1,0 +1,208 @@
+body{
+    background-image: url("fontacceuil.jpg");
+}
+@keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.acceuilcouleur:visited{
+    color: black;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: rotation 3s linear infinite;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left ;
+}
+.menu{
+    transition: transform 0.3s ease;
+}
+.menu:hover {
+    transform: translateY(-10px); /* Déplace le menu de 10 pixels vers le haut */
+}
+li {
+    transition: transform 1.5s ease;
+}
+.parent-li {
+    position: relative;
+    color: rgb(0, 106, 255);
+    cursor: pointer;
+  }
+  
+  .conteneur-elements {
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(245, 245, 220, 0.81);
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  
+  .conteneur-elements li {
+    margin-top: 1px;
+    font-size: 12px;
+  }
+  
+  .parent-li:hover .conteneur-elements {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  
+  
+li:hover {
+    transform: scale(1.2); /* Agrandit l'élément de 20% */
+}
+
+div ul[class="parent"]{
+    background-color: rgba(255, 255, 255, 0.734);
+    color: black;
+    margin-left: 15%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 60%;
+    height: 10vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    border-radius: 10px;
+}
+li{
+    display: inline;
+    margin-right: 50px;
+
+}
+.dropdown-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.dropdown-menu li:hover {
+    background-color: #ddd;
+}
+
+.transition-text {
+    font-size: 16px; /* Taille initiale */
+    transition: font-size 1s ease; /* Transition douce de la taille de police */
+    cursor: pointer; /* Curseur de la souris pour indiquer l'interactivité */
+}
+p{
+    background-color: orange;
+    color: black;
+    width: 60%;
+    border-radius: 10px;
+    border: 0px solid;
+    display: flex;
+    margin-left: 20%;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    clear: both;
+}
+@keyframes bougerDiv {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.avantimagevilles{
+    background-color: rgba(0, 0, 0, 0.412);
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    padding: 10PX;
+    margin-bottom: 50px;
+    transition: transform 1s ease;
+    animation: bougerDiv 1s infinite;/* La durée de l'animation est de 5 secondes et elle se répète indéfiniment */
+}
+.avantimagevilles:hover {
+    transform: scale(1.1); /* Agrandit l'élément de 10% */
+}
+h2{
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.container {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 5px;
+  }
+  
+  .image {
+    width: 600px; /* Taille initiale de l'image */
+    transition: width 0.9s ease;
+    height: 100px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.9s ease;
+  }
+  
+  .container:hover .image {
+    width: 800px; /* Taille de l'image lorsqu'on survole */
+    height: 200px;
+  }
+  
+  .container:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+  h6{
+    text-align: end;
+  }
+  .Retour{
+    background-color: rgba(0, 0, 0, 0.641);
+    color: black;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    border: 0px solid;
+    border-radius:10px;
+    margin-top: 10vh;
+    margin-bottom: 10px;
+  }
+
+a:hover{
+    color: rgba(255, 0, 0, 0.802);
+}
+
+a:active {
+    color: red;
+}
+marquee{
+    color: white;
+}

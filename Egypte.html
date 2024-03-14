@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voyage pour l'Egypte</title>
+    <link rel="stylesheet" href="Egypte.css">
+</head>
+<body>
+   <div class="principal">
+    <div class="hautcotonou">
+        <ul class="parent" >
+            <li> <a href="index.html">Accueil</a></li>
+            <li class="parent-li"><u>Découvertes</u>
+            <ul class="conteneur-elements">
+                <li><a href="Newyork.html">New-york </a></li>
+                <li><a href="paris.html">Paris</a></li>
+                <li><a href="Cotonou.html">Cotonou</a></li>
+                <li><a href="Egypte.html" class="Egypte">Egypte</a></li>
+                <li><a href="hongkong.html">Hongkong</a></li>
+            </ul>
+            </li>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="Apropos.html">A Propos</a></li>
+        </ul>
+     </div>
+    <div id="text-container"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+  const textContainer = document.getElementById('text-container');
+  const text = "BIENVENUE EN EGYPTE";
+  let index = 0;
+
+  function displayText() {
+    if (index < text.length) {
+      textContainer.textContent += text[index];
+      index++;
+      setTimeout(displayText, 100); // délai entre chaque lettre (en millisecondes)
+    }
+  }
+
+  displayText();
+});
+
+    </script>
+
+ <div class="textecourt">
+ <div id="text-container2"></div>
+ <script>
+     document.addEventListener("DOMContentLoaded", function() {
+const textContainer2 = document.getElementById('text-container2');
+const text = "DECOUVREZ L'EGYPTE : le pays des pharaons";
+let index = 0;
+
+function displayText() {
+ if (index < text.length) {
+   textContainer2.textContent += text[index];
+   index++;
+   setTimeout(displayText, 100); // délai entre chaque lettre (en millisecondes)
+ }
+}
+
+displayText();
+});
+
+ </script>
+
+<div id="text-container3"></div>
+ <script>
+    document.addEventListener("DOMContentLoaded", function() {
+const textContainer3 = document.getElementById('text-container3');
+const text = "Explorez les sites les plus emblématiques de l'Égypte, tels que les pyramides de Gizeh, la vallée des rois, le temple de Karnak et bien plus encore. Plongez dans l'histoire et la grandeur de ces monuments millénaires.";
+let index = 0;
+
+function displayText() {
+if (index < text.length) {
+  textContainer3.textContent += text[index];
+  index++;
+  setTimeout(displayText, 20); // délai entre chaque lettre (en millisecondes)
+}
+}
+
+displayText();
+});
+
+</script>
+</div>
+ <div class="allonsy">ALLONS Y !!!</div>
+   </div>
+    
+   <div class="egypteenbref"> <em>L'EGYPTE EN BREF !!!</em></div>
+   <div class="content">
+    <div class="container">
+        <img src="logovideo.png" alt="Image" width="50" height="50">
+        <video class="video" width="370" height="300" controls>
+            <source src="egyptevideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+        <div class="ecrit1">
+            La Grande Pyramide de Khéops, également connue sous le nom de Pyramide de Chéops, est l'une des merveilles les plus emblématiques de l'Égypte antique. Construite il y a environ 4 500 ans pour servir de tombeau au pharaon Khéops de la quatrième dynastie, elle est la plus grande et la plus ancienne des trois grandes pyramides de Gizeh. Haut de 146 mètres à l'origine, ce monument colossal était autrefois recouvert de pierre calcaire polie, créant une surface lisse et brillante. Sa construction, avec ses blocs de calcaire taillés avec précision, reste une prouesse architecturale remarquable, et les mystères entourant sa construction et son but en font un sujet de fascination continue pour les historiens, les archéologues et les visiteurs du monde entier.
+        </div>
+        <div class="image1"><img src="pyramides_gizeh.jpg" alt="" width="200" height="200"></div>
+         
+        <div class="ecrit2">
+            Les croisières sur le Nil offrent une expérience unique pour explorer les trésors de l'Égypte antique le long du fleuve légendaire. À bord de bateaux traditionnels ou de croisières de luxe, les voyageurs peuvent naviguer entre Louxor et Assouan, découvrant des temples majestueux, des tombes pharaoniques et des paysages enchanteurs. Ces croisières permettent de visiter des sites emblématiques tels que le temple de Karnak, la vallée des rois, le temple de Philae et bien d'autres encore, tout en offrant un confort et une hospitalité exceptionnels. C'est une expérience inoubliable pour ceux qui cherchent à plonger dans l'histoire et la beauté naturelle de l'Égypte tout en naviguant sur les eaux sacrées du Nil.
+        </div>
+        <div class="image2"><img src="orig-croisiere-sur-le-nil-04.jpg" alt="" width="200" height="200"></div>
+   
+        <div class="precedant">
+            <a href="Cotonou.html"><img class="final" src="logoprecedent.jpg" alt=""width="50" height="50"></a>
+        </div>
+         <div class="suivant">
+            <a href="Hongkong.html"><img class="final" src="logosuivant.jpg" alt=""width="50" height="50"></a>
+        </div>
+         <div class="retour">
+            <a href="Egypte.html" class="reretour">Retour en haut de la page </a>
+        </div>
+        <div>
+            <ul class="dernier">
+              <a href="Newyork.html"><li>1</li></a>
+              <a href="paris.html"><li>2</li></a>  
+               <a href="Cotonou.html"><li>3</li></a> 
+               <a href="Egypte.html" ><li><u>4</u></li></a> 
+               <a href="hongkong.html"><li>5</li></a> 
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

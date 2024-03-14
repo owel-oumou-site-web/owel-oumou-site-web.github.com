@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       <title>Pour vos voyages</title>
+       <link rel="stylesheet" href="index.css">
+   </head>
+<body>
+<header>
+    <div class="square">WELCOME</div>
+ <nav>
+    <div class="menu">
+    <ul class="parent" >
+        <li><a href="" class="acceuilcouleur"> Accueil </a></li>
+        <li class="parent-li"> Découvertes
+        <ul class="conteneur-elements">
+            <li><a href="Newyork.html">New-york </a></li>
+            <li><a href="paris.html">Paris</a></li>
+            <li><a href="Cotonou.html">Cotonou</a></li>
+            <li><a href="Egypte.html">Egypte</a></li>
+            <li><a href="hongkong.html">Hongkong</a></li>
+        </ul>
+        </li>
+        <li><a href="Service.html">Services</a></li>
+        <li><a href="Apropos.html">APropos</a></li>
+    </ul>
+    </div>
+    <div class="fixer">
+ </nav>   
+    <p id="changing-text" class="transition-text" onmouseover="changeText(true)" onmouseout="changeText(false)">Nothing is more beautiful in the word than visiting idyllic places</p>
+
+<script>
+function changeText(over) {
+    var text = document.getElementById("changing-text");
+    if (over) {
+        text.style.fontSize = "24px"; // Nouvelle taille de police
+        text.innerHTML = "Rien n'est plus beau au monde que de visiter les endroits idylliques"; // Nouveau texte
+        text.style.color = "white"; // Changement de couleur (optionnel)
+        text.style.backgroundColor=""
+    } else {
+        text.style.fontSize = "16px"; // Retour à la taille de police initiale
+        text.innerHTML = "Nothing is more beautiful in the word than visiting idyllic places"; // Texte initial
+        text.style.color = "black"; // Retour à la couleur initiale (optionnel)
+        text.style.backgroundColor= "orange"
+        text.style.fontSize="20px"
+    }
+}
+</script>
+</header>
+
+<main>
+    <section>
+        <div class="avantimagevilles" >
+            <h2 > VOYAGER DANS LE MONDE  </h2>
+            <h3>DECOUVRIR PLEIN D'ENDROITS !!!</h3>
+            <h5 class="textacceuil">Visiter les sites touristiques, les belles villes du monde , les belles îles, les paysases les plus cool de la nature... est une chose que tout le monde aurait voulue . Ainsi , l'objectif de cette page web est de présenter brièvement ces endroits qui nous font autant rêver  </h5>
+        </div>
+    </section>
+<section>
+<div class="premieracceuil">
+<div class="container">
+    <a href="Newyork.html">
+      <img src="statutnewyork.jpg" alt="Votre image" class="image" id="image">
+      <div class="overlay" id="overlay1"> <a href="Newyork.html">NEW-YORK</a></div>
+    </a>
+    </div>
+  <script>
+      // Facultatif si vous souhaitez gérer dynamiquement le texte affiché
+       // Vous pouvez le remplacer par votre texte directement dans le HTML
+       document.getElementById("overlay1").innerText = "NEW-YORK";
+  </script>
+  <div class="container">
+       <a href="paris.html">
+      <img src="parisacueil.jpg" alt="Votre image" class="image" id="image">
+      <div class="overlay" id="overlay2">PARIS</div>
+      </a>
+  </div>
+  <script>
+      // Facultatif si vous souhaitez gérer dynamiquement le texte affiché
+      // Vous pouvez le remplacer par votre texte directement dans le HTML
+       document.getElementById("overlay2").innerText = "PARIS";
+  </script>
+  <div class="container">
+    <a href="Cotonou.html">
+      <img src="amazonaccueil.jpg" alt="Votre image" class="image" id="image">
+       <div class="overlay" id="overlay3">COTONOU</div>
+    </a>
+  </div>
+  <script>
+         // Facultatif si vous souhaitez gérer dynamiquement le texte affiché
+         // Vous pouvez le remplacer par votre texte directement dans le HTML
+          document.getElementById("overlay3").innerText = "COTONOU";
+    </script>
+  <div class="container">
+    <a href="Egypte.html">
+    <img src="acceuilegypte.jpg" alt="Votre image" class="image" id="image">
+     <div class="overlay" id="overlay4">Le caire</div>
+    </a>
+</div>
+<script>
+       // Facultatif si vous souhaitez gérer dynamiquement le texte affiché
+       // Vous pouvez le remplacer par votre texte directement dans le HTML
+       document.getElementById("overlay4").innerText = "EGYPTE";
+  </script>
+<div class="container">
+    <a href="hongkong.html">
+    <img src="accueilhongkong.jpg" alt="Votre image" class="image" id="image">
+     <div class="overlay" id="overlay5">HONG-KONG</div>
+    </a>
+</div>
+<script>
+       // Facultatif si vous souhaitez gérer dynamiquement le texte affiché
+       // Vous pouvez le remplacer par votre texte directement dans le HTML
+        document.getElementById("overlay5").innerText = "HONG-KONG";
+  </script>
+</div>
+</section>
+</main>
+<footer>
+ <div class="Retour"><a href="index.html">Retourner en haut de la page d'acceuil</a></div>
+ <marquee behavior="2" direction="right-in-left">Projet réalisé par AGBLOGBA Mawunan Owel et Oumou Khaïri FALL</marquee>
+</footer>
+</div>
+</body>
+</html>

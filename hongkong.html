@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage pour le Hongkong</title>
+    <link rel="stylesheet" href="Egypte.css">
+</head>
+<body>
+   <div class="principal2">
+    <div class="hautcotonou">
+        <ul class="parent" >
+            <li> <a href="index.html">Accueil</a></li>
+            <li class="parent-li"><u>Découvertes</u>
+            <ul class="conteneur-elements">
+                <li><a href="Newyork.html">New-york </a></li>
+                <li><a href="paris.html">Paris</a></li>
+                <li><a href="Cotonou.html">Cotonou</a></li>
+                <li><a href="Egypte.html">Egypte</a></li>
+                <li><a href="hongkong.html" class="hongkong">Hongkong</a></li>
+            </ul>
+            </li>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="Apropos.html">A Propos</a></li>
+        </ul>
+     </div>
+    <div id="text-container"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+  const textContainer = document.getElementById('text-container');
+  const text = "BIENVENUE A HONGKONG";
+  let index = 0;
+
+  function displayText() {
+    if (index < text.length) {
+      textContainer.textContent += text[index];
+      index++;
+      setTimeout(displayText, 100); // délai entre chaque lettre (en millisecondes)
+    }
+  }
+
+  displayText();
+});
+
+    </script>
+ <div class="textecourt">
+ <div id="text-container2"></div>
+ <script>
+     document.addEventListener("DOMContentLoaded", function() {
+const textContainer2 = document.getElementById('text-container2');
+const text = "DECOUVREZ HONGKONG: la ville qui ne dort jamais";
+let index = 0;
+
+function displayText() {
+ if (index < text.length) {
+   textContainer2.textContent += text[index];
+   index++;
+   setTimeout(displayText, 100); // délai entre chaque lettre (en millisecondes)
+ }
+}
+
+displayText();
+});
+
+ </script>
+
+<div id="text-container3"></div>
+ <script>
+    document.addEventListener("DOMContentLoaded", function() {
+const textContainer3 = document.getElementById('text-container3');
+const text = "Bienvenue sur notre page dédiée à Hong Kong, une métropole dynamique située à l'intersection de l'Orient et de l'Occident. Plongez dans l'effervescence de cette ville fascinante, où la tradition rencontre la modernité et où chaque coin de rue réserve une nouvelle aventure.";
+let index = 0;
+
+function displayText() {
+if (index < text.length) {
+  textContainer3.textContent += text[index];
+  index++;
+  setTimeout(displayText, 20); // délai entre chaque lettre (en millisecondes)
+}
+}
+
+displayText();
+});
+
+</script>
+</div>
+ <div class="allonsy">ALLONS Y !!!</div>
+   </div>
+    
+   <div class="egypteenbref"> <em>HONG-KONG EN BREF !!!</em></div>
+   <div class="content">
+    <div class="container">
+        <img src="logovideo.png" alt="Image" width="50" height="50">
+        <video class="video" width="370" height="300" controls>
+            <source src="videohongkong (2).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+        <div class="ecrit1">
+            Victoria Peak, ou simplement "The Peak", est l'une des attractions les plus emblématiques de Hong Kong. Situé sur l'île de Hong Kong, c'est le point culminant de la ville, offrant une vue imprenable sur les gratte-ciel scintillants, la baie de Victoria et les îles environnantes. Les visiteurs peuvent accéder au sommet en empruntant le célèbre Peak Tram, un tramway historique qui grimpe en pente raide à travers une végétation luxuriante. Une fois au sommet, vous pouvez profiter de panoramas à couper le souffle depuis les plateformes d'observation, faire des promenades pittoresques le long des sentiers, ou vous détendre dans les restaurants et les boutiques du complexe commercial de Peak Tower. C'est un incontournable pour tous ceux qui visitent Hong Kong, offrant une perspective incomparable sur la ville dynamique et son environnement naturel spectaculaire.
+        </div>
+        <div class="image1"><img src="victoria-peak-hong-kong-kowloon-and-victoria-harbor-paul-thompson.jpg" alt="" width="200" height="200"></div>
+         
+        <div class="ecrit2">
+            Le Ladies' Market, ou Marché des dames, est l'un des marchés de rue les plus animés et les plus célèbres de Hong Kong. Situé dans le quartier dynamique de Mong Kok à Kowloon, ce marché est réputé pour sa grande variété de produits vendus à des prix abordables. Les visiteurs peuvent parcourir des stands colorés proposant une multitude d'articles, notamment des vêtements, des accessoires de mode, des gadgets électroniques, des souvenirs et bien plus encore. C'est un endroit idéal pour faire des achats intéressants, pratiquer le marchandage avec les vendeurs et découvrir l'ambiance animée de la vie quotidienne à Hong Kong.  
+        </div>
+        <div class="image2"><img src="ladiesmarkethongkong.webp" alt="" width="200" height="200"></div>
+   
+        <div class="precedant">
+            <a href="Egypte.html"><img class="final" src="logoprecedent.jpg" alt=""width="50" height="50"></a>
+        </div>
+         <div class="suivant">
+            <a href="Newyork.html"><img class="final" src="logosuivant.jpg" alt=""width="50" height="50"></a>
+        </div>
+         <div class="retour">
+            <a href="hongkong.html" class="reretour">Retour en haut de la page </a>
+        </div>
+        <div>
+            <ul class="dernier">
+              <a href="Newyork.html"><li>1</li></a>
+              <a href="paris.html"><li>2</li></a>  
+               <a href="Cotonou.html"><li>3</li></a> 
+               <a href="Egypte.html" class="lui"><li>4</li></a> 
+               <a href="hongkong.html"><li><u>5</u></li></a> 
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

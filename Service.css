@@ -1,0 +1,184 @@
+body{
+    background-image: url("charter-avion2.jpg");
+    padding-bottom: 5vh;
+    background-size: cover ;
+}
+#listmenu{
+    transition: transform 0.3s ease;
+}
+.parent-li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .conteneur-elements {
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(245, 245, 220, 0.81);
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  
+  .conteneur-elements li {
+    margin-top: 1px;
+    font-size: 12px;
+  }
+  .conteneur-elements li:hover{
+    background-color: rgba(95, 158, 160, 0.765);
+    border-radius: 3px;
+  }
+  .parent-li:hover .conteneur-elements {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+div ul[class="parent"]{
+    background-color: rgba(255, 255, 255, 0.734);
+    color: black;
+    margin-left: 18%;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    width: 60%;
+    height: 10vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    border-radius: 10px;
+    animation: bougerDiv 1s infinite;
+
+}
+#listmenu{
+    display: inline;
+    margin-right: 50px;
+}
+li:hover {
+    transform: scale(1.2); /* Agrandit l'élément de 20% */
+}
+.list:hover{
+    transform: scale(1.2);
+    color: orange;
+}
+.list2:hover{
+    transform: scale(1.2);
+    color: orange;
+}
+.menu{
+    transition: transform 0.3s ease;
+}
+li{
+    transition: transform 2s ease; 
+}
+@keyframes bougerDiv {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.soustitre{
+    margin-top: 10vh;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10vh;
+    animation: bougerDiv 1s infinite;
+}
+.introduction{
+    margin-top: 10vh;
+    font-size: 25px;
+    margin-bottom: 10vh;
+    margin-left: 40%;
+}
+span{
+    margin-left: 25px;
+}
+.titrepresentation{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15vh;
+    animation: bougerDiv2 4s infinite;
+    background-color: rgba(165, 42, 42, 0.409);
+    color: white;
+    width: 35%;
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+.list{
+    list-style-type: square;
+    margin-left: 2%;
+    font-size: 20px;
+    margin-right: 70%;
+    transition: transform 2s ease
+}
+.list2{
+    list-style-type: symbols(); 
+    margin-left: 25%;
+    font-size: 20px;
+    margin-right: 25%;
+    transition: transform 2s ease
+
+}
+.service:visited{
+    color: black;
+}
+.acceuil:visited{
+  color: rgba(0, 0, 0, 0.525);
+}
+.parent-li{
+    color: rgb(76, 0, 130) ;
+}
+.commencez{
+     background-color: brown;
+     color: white;
+     font-size: 25px;
+     display: flex;
+     width: 70%;
+     height: 15vh;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10vh;
+     border-radius: 10px;
+     margin-left: 10%;
+     animation: bougerDiv2 4s infinite;
+}
+    @keyframes bougerDiv2 {
+        0% {
+            transform: translateY(0);
+        }
+        25%{
+            transform: translateX(30px)  
+        }
+        50% {
+            transform: translateY(30px);
+        }
+        75%{
+            transform: translateX(30px)
+        }
+        100% {
+            transform: translateY(0);
+        }
+    } 
+.commencer{
+ text-decoration: none;
+ color: white;
+ cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: indigo;
+}
+hr{
+    width: 50%;
+    margin-left: 25%;
+}

@@ -1,0 +1,307 @@
+
+#principal{
+    background-color: rgba(71, 61, 139, 0.868);
+    height: 25vh;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#new_york_en_bref{
+    background-color: rgba(0, 128, 0, 0.595);
+    color: white;
+    font-size: 15px;
+    float: left;
+    display: flex;
+    margin-right: 2px;
+    width: 20%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+#Differentes_sites_trouristiques{
+    background-color:rgba(0, 128, 0, 0.595);
+    color: white;
+    font-size: 15px;
+    float: left;
+    display: flex;
+    margin-right: 2px;
+    width: 20%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+#La_cusine{
+    background-color: rgba(0, 128, 0, 0.595);
+    color: white;
+    font-size: 15px;
+    float: left;
+    display: flex;
+    margin-right: 2px;
+    width: 20%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+#L_industrualisation{
+    background-color:rgba(0, 128, 0, 0.595);
+    color: white;
+    font-size: 15px;
+    float: left;
+    display: flex;
+    margin-right: 2px; 
+    width: 20%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center; 
+}
+#le_sport{
+    background-color: rgba(0, 128, 0, 0.595);
+    color: white;
+    font-size: 15px;
+    margin-right: 2px; 
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#logo{
+    width: 75px;
+    height: 75px;
+    color: cornflowerblue;
+    font-size: 15px;
+    display: flex;
+    float: left;
+}
+#NEW_YORK_TA_VILLE_NOTRE_VILE{
+    color: white;
+    font-size: 50px;
+    clear: both;
+    margin-left: 17%;
+}
+#princi{
+    display: flex;
+}
+#recherche{
+    margin-left: 75%;
+    float: left;
+    display: flex;
+
+}
+div button{
+    background-color:rgba(0, 128, 0, 0.308);
+    border-top: 1px solid green;
+    border-left: 1px solid green;
+    border-bottom: 2px solid  ;
+    border-right: 2px solid ;
+    border-radius: 10px;
+   margin-left: 80%;
+   margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+#image_de_fond1{
+    background-image: url("new-york-city-skyline-cityscape-260nw-57571180.webp");
+    height: 34vh;
+    padding-top: 10vh;
+    padding-left: 5%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-right: 5% ;
+    color: white;
+}
+#NEW_YORK{
+    margin-top: 5px;
+}
+#vivre_comme_un_roi{
+    background-color: beige;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#deux_de_leurs_plats{
+    background-color:cornflowerblue;
+    color: white;
+    font-size: 30px;
+    height: 70px;
+    margin-top: 20px;
+    border: 0px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div span{
+    color: red;
+    margin-left: 20px;
+}
+#image2_restaurant{
+    display: flex;
+    float: left;
+    width: 30%;
+    height: 63vh;
+    background-image: url("ecole-ritz-escoffier-01.jpg");
+    padding-left: 8vh;
+    padding-right: 8vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#La_cuisine_de_New_York_est{
+    background-color: rgba(0, 0, 0, 0.447);
+    padding: 10px;
+}
+#background_image2_restaurant{
+    background-color: rgba(255, 255, 0, 0.625);
+    display: flex;
+    height: 58vh;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+#ecrit_sur_pizza{
+    margin-right: 15px;
+}
+.section_video_newyork{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    clear: left;
+}
+ #dis_le_moi{
+    color: cadetblue;
+    font-size: 50px;
+    margin-left: 45%;
+ }
+ #pointexc{
+    font-size: 80;
+    color: brown;
+ }
+#avant_fin_new_york{
+    background-color: rgba(245, 245, 220, 0.428);
+    padding: 40px;
+    height: 40vh;
+}
+#aimez_vous_newyork{
+    background-color: rgba(255, 0, 0, 0.688);
+    width: 60%;
+    height: 8vh;
+    margin-left: 25%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: beige;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#textefinnewyork{
+    font-size: 25px;
+}
+li{
+    display: inline;
+    margin-right: 30px;
+}
+#logofin1{
+    width: 50px;
+    height: 50px;
+}
+ul{
+    margin-left: 40%;
+}
+#logofin2{
+    width: 50px;
+    height: 50px;
+}
+ul{
+    margin-left: 100px;
+}
+#backgrounimagefinnewyork{
+    background-color: rgba(135, 207, 235, 0.355);
+    height: 30vh;
+    padding-top: 5vh;
+    padding-left: 20%;
+    padding-bottom: 3vh;
+}
+img[class="facebook"]{
+    width: 40px;
+    height: 40px;
+}
+.jaime:hover{
+     background-color: red;
+     animation: bougerDiv 2s infinite;
+}
+.jaimepas:hover{
+    background-color: red;
+    animation: bougerDiv 2s infinite;
+}
+.retouren:hover{
+    color: red;
+}
+a:active{
+    color: fuchsia;
+}
+#finlogonewyork{
+    margin-top: 10vh;
+    margin-left: 30%;
+}
+.precedant{
+    margin-left: 3%;
+    display: flex;
+    float: left;
+    margin: 4vh;
+}
+.retour{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    float: left;
+    margin-left: 35%;
+    display: flex;
+}
+.suivant{
+  text-align: end;
+  margin: 4vh;
+}
+.final{
+    border-radius: 10px;
+}
+.reretour{
+    color: white;
+    text-decoration: none;
+}
+.reretour:hover{
+    animation: bougerDiv 2s infinite;
+}
+@keyframes bougerDiv {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.dernier li {
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+}
+.dernier{
+    text-align: center;
+    margin-top: 10vh;
+}
+a{
+    text-decoration: none;
+}
+.dernier li:hover{
+    background-color: black;
+    color: white;
+}
