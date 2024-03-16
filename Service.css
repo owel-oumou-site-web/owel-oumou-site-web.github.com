@@ -133,10 +133,10 @@ span{
     color: black;
 }
 .acceuil:visited{
-  color: rgba(0, 0, 0, 0.525);
+  color: blue;
 }
 .parent-li{
-    color: rgb(76, 0, 130) ;
+    color: blue ;
 }
 .commencez{
      background-color: brown;
