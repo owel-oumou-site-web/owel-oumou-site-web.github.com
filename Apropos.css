@@ -35,7 +35,7 @@ body{
     flex-direction: column;
     position: absolute;
   }
-  .Apropos:visited{
+  .Apropos{
     color: black;
   }
   #listmenu:hover {
