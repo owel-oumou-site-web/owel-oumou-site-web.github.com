@@ -17,7 +17,9 @@ li {
     position: relative;
     cursor: pointer;
   }
-  
+  .accueil{
+      color:blue;
+  }
   .conteneur-elements {
     position: absolute;
     display: none;
