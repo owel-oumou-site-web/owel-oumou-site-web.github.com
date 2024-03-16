@@ -129,10 +129,10 @@ span{
     transition: transform 2s ease
 
 }
-.service:visited{
+.service{
     color: black;
 }
-.acceuil:visited{
+.acceuil{
   color: blue;
 }
 .parent-li{
