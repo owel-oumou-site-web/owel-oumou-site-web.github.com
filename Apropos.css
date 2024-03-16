@@ -38,6 +38,9 @@ body{
   .Apropos{
     color: black;
   }
+.Accueil{
+    color:blue;
+}
   #listmenu:hover {
     transform: scale(1.2); /* Agrandit l'élément de 20% */
 }
