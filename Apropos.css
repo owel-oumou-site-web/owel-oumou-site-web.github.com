@@ -8,7 +8,7 @@ body{
 }
 .parent-li {
     position: relative;
-    color: indigo;
+    color: blue;
     cursor: pointer;
   }
   
